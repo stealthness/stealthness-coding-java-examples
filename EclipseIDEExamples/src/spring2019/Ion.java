@@ -1,10 +1,10 @@
 package spring2019;
 
-public class ThreadExample1 implements  Runnable{
+public class Ion implements  Runnable{
 
     public static void main(String[] args) {
 
-        Thread t = new Thread(new ThreadExample1());
+        Thread t = new Thread(new Ion());
         t.start();
         System.out.println("2");
         t.run();
